@@ -21,6 +21,7 @@
   "party_type",
   "column_break_14",
   "party",
+  "default_bank_account",
   "account_details_section",
   "iban",
   "column_break_12",
@@ -37,6 +38,12 @@
   "mask"
  ],
  "fields": [
+  {
+   "fieldname": "default_bank_account",
+   "fieldtype": "Link",
+   "label": "Default Bank Account",
+   "options": "Employee"
+  },
   {
    "fieldname": "account_name",
    "fieldtype": "Data",
@@ -209,7 +216,7 @@
   }
  ],
  "links": [],
- "modified": "2024-03-27 13:06:37.049542",
+ "modified": "2024-04-18 11:07:06.244411",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Bank Account",
