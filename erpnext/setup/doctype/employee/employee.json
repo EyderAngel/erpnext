@@ -79,7 +79,7 @@
   "bank_details_section",
   "bank_name",
   "column_break_heye",
-  "bank_ac_no",
+  "bank_account_no",
   "iban",
   "personal_details",
   "marital_status",
@@ -420,10 +420,10 @@
   },
   {
    "depends_on": "eval:doc.salary_mode == 'Bank'",
-   "fieldname": "bank_ac_no",
+   "fieldname": "bank_account_no",
    "fieldtype": "Data",
-   "label": "Bank A/C No.",
-   "oldfieldname": "bank_ac_no",
+   "label": "Bank Account No",
+   "oldfieldname": "bank_account_no",
    "oldfieldtype": "Data"
   },
   {
