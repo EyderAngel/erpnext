@@ -533,6 +533,7 @@ def get_accounts(root_type, companies):
 				accounts.append(account)
 				added_accounts.append(account_key)
 
+			break
 	return accounts
 
 
